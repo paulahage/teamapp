@@ -26,7 +26,7 @@ This is an exercise to learn basics fundamentals of Angular.
 $ git clone git@github.com:paulahage/teamapp.git
 $ cd website
 $ npm install
-$ npm start
+$ npm start or ng serve
 ```
 - You can check the project at http://localhost:4200/
 
