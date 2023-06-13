@@ -25,8 +25,11 @@
       <button (click)="generateTeams()">Generate</button>
     </div>
     <p *ngIf="errorMessage" class="error-msg">{{ errorMessage }}</p>
-  </div>
+    <div class="clear-all-container">
+      <button (click)="clearAllTeams()">Clear all</button>
+    </div>
 
+  </div>
   <div *ngIf="teams.length" class="teams-container">
     <app-team
       *ngFor="let team of teams; let i = index"
